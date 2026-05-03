@@ -3,14 +3,6 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/products",
-        "destination": "/websites"
-      },
-      {
-        "source": "/products/:path*",
-        "destination": "/websites/:path*"
-      },
-      {
         "source": "/network",
         "destination": "/projects"
       },
